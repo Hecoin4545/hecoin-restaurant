@@ -1,0 +1,60 @@
+.why-to-choose {
+    width: 85%;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+  
+    .left-choose-why {
+      width: 50%;
+  
+      .main-why-to-choose-description {
+        height: 16vh;
+  
+        p{
+          color: $tertiary-color;
+        }
+  
+        h1 {
+          font-size: 38px;
+        }
+      }
+      .main-why-choose-concept {
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+  
+        ul {
+          width: 100%;
+  
+          li {
+            list-style: none;
+            font-size: 30px;
+            margin: 16px 0px;
+          }
+        }
+      }
+      .button-choose-why {
+        height: 10vh;
+  
+        button {
+          position: relative;
+          top: 30px;
+          left: 5rem;
+          height: 51px;
+          width: 262px;
+          background-color: rgba(255, 12, 12, 0.91);
+          color: #fff;
+          border: 2px solid;
+          border-radius: 22px;
+        }
+      }
+    }
+    .right-choose-why {
+      width: 50%;
+      @extend %display;
+  
+      img {
+        width: 35rem;
+      }
+    }
+  }

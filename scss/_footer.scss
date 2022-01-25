@@ -1,0 +1,11 @@
+.footer {
+    background-color: $primary-color;
+    color: $secondary-color;
+    margin-top: 20px;
+    height: 6vh;
+   @extend %display;
+  
+    .sec-footer-1 {
+      height: 4vh;
+    }
+  }

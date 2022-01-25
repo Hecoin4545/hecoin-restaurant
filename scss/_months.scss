@@ -1,0 +1,130 @@
+
+
+
+.special-month {
+    height: 40vh;
+    width: 90%;
+    margin: auto;
+  
+    &-box {
+      width: 100%;
+      height: 30vh;
+      margin: auto;
+      background-color: $primary-color;
+      border-radius: 30px 0px 0px 30px;
+      display: flex;
+  
+      .popular {
+        display: flex;
+        width: 45%;
+  
+        .chef-special {
+          width: 56%;
+          display: flex;
+          justify-content: center;
+          margin-right: 6px;
+          img {
+            width: 96px;
+          }
+        }
+  
+        .content-box {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-right: 20px;
+          width: 85%;
+  
+          h1 {
+            color: $tertiary-color;
+            margin-bottom: 14px;
+            font-size: 29px;
+          }
+  
+          p {
+            color: $secondary-color;
+          }
+  
+          .line-side {
+            height: 1px;
+            background-color: $tertiary-color;
+            margin-top: 26px;
+            width: 215px;
+  
+            i {
+              position: relative;
+              left: 13.5rem;
+              bottom: 0.5rem;
+              color: $tertiary-color;
+            }
+          }
+        }
+      }
+  
+      .pizza-container {
+        width: 36%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+  
+        .line-side {
+          height: 1px;
+          background-color: $tertiary-color;
+          width: 161px;
+          position: relative;
+          transform: rotate(90deg);
+          top: 20re;
+          left: 12rem;
+          bottom: 5rem;
+        }
+  
+        img {
+          width: 29%;
+        }
+  
+        .name-of-pizza {
+          color: $secondary-color;
+          margin-top: 11px;
+          font-size: 20px;
+        }
+  
+        strike {
+          color: $tertiary-color;
+          font-size: 18px;
+        }
+        span {
+          color: white;
+          margin-left: 10px;
+          font-size: 24px;
+        }
+      }
+  
+      .burger-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+  
+        img {
+          width: 29%;
+        }
+  
+        .name-of-burger {
+          color: $secondary-color;
+          margin-top: 11px;
+          font-size: 20px;
+        }
+  
+        strike {
+          color: $tertiary-color;
+          font-size: 18px;
+        }
+        span {
+          color: $secondary-color;
+          margin-left: 10px;
+          font-size: 24px;
+        }
+      }
+    }
+  }

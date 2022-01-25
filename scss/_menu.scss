@@ -1,0 +1,83 @@
+.main-menu-area {
+    .main-menu-short-description {
+      height: 14vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+  
+      p{
+        color: $tertiary-color;
+      }
+    }
+  
+    .upper-side-bar-main {
+      height: 10vh;
+     @extend %display;
+      .main-menu {
+        width: 115px;
+        height: 42px;
+        border-radius: 16px;
+        background: rgba(255, 12, 12, 0.91);
+        border: 2px solid;
+        color: #fff;
+        font-family: "Signika Negative", sans-serif;
+        margin: 0px 11px;
+      }
+    }
+  
+    .down-side-bar-main {
+      width: 90%;
+      margin: auto;
+  
+      .main-menu-bottom-area {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+  
+        .box-menu {
+          width: 26%;
+          margin: 10px 10px;
+          border: 2px solid;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+  
+          img {
+            margin: 10px 0px;
+            width: 150px;
+            height: 150px;
+          }
+  
+          p {
+            width: 88%;
+            text-align: center;
+          }
+  
+          .price-button {
+            display: flex;
+            align-items: center;
+            width: 80%;
+            margin-top: 8px;
+            height: 7vh;
+  
+            p {
+              width: 54%;
+              font-size: 18px;
+            }
+  
+            button {
+              width: 100px;
+              height: 35px;
+              border-radius: 11px;
+              background: rgba(255, 12, 12, 0.91);
+              border: 2px solid;
+              color: #fff;
+              font-family: "Signika Negative", sans-serif;
+              margin: 0px 11px;
+            }
+          }
+        }
+      }
+    }
+  }

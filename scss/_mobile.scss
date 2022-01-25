@@ -1,0 +1,21 @@
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1150px) {
+  .footer,
+  .why-to-choose,
+  .main-menu-area,
+  .how-we-work,
+  .special-month,
+  .home-container {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 100vh;
+  }
+}

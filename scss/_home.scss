@@ -1,0 +1,136 @@
+.nav-bar {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 9vh;
+
+  .logo-left-side {
+    width: 13%;
+    @extend %display;
+
+    p {
+      color: $tertiary-color;
+      font-size: 32px;
+      font-family: "Signika Negative", sans-serif;
+    }
+  }
+
+  .navlist-btn {
+    display: flex;
+    width: 87%;
+
+    .nav-list-anchor {
+      @extend %display;
+      justify-content: flex-end;
+      width: 85%;
+
+      ul {
+        display: flex;
+
+        li {
+          list-style: none;
+        }
+
+        a {
+          margin: 0px 18px;
+          color: #11034a;
+          text-decoration: none;
+          font-size: 18px;
+          font-family: "IBM Plex Serif", serif;
+        }
+      }
+    }
+
+    .nav-list-butttob {
+      @extend %display;
+      width: 15%;
+
+      .sign-up {
+        width: 115px;
+        height: 42px;
+        border-radius: 16px;
+        background: rgba(255, 12, 12, 0.91);
+        border: 2px solid;
+        color: #fff;
+        font-family: "Signika Negative", sans-serif;
+      }
+    }
+  }
+}
+
+.home-content {
+  width: 90%;
+  height: 88vh;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+
+  .left-content-area {
+    width: 50%;
+    height: 88vh;
+
+    h1 {
+      @extend %display;
+      height: 48%;
+      width: 80%;
+      margin: auto;
+      align-items: flex-end;
+      font-size: 61px;
+      word-spacing: 6px;
+      font-family: "Signika Negative", sans-serif;
+
+      span {
+        color: $tertiary-color;
+        display: contents;
+      }
+    }
+
+    p {
+      width: 79%;
+      margin: auto;
+      margin-top: 20px;
+      font-size: 14px;
+      border-left: 5px solid $tertiary-color;
+      padding: 0px 7px;
+      font-family: "IBM Plex Serif", serif;
+    }
+
+    button {
+      position: relative;
+      top: 30px;
+      left: 5rem;
+      height: 51px;
+      width: 262px;
+      background-color: $tertiary-color;
+      color: $secondary-color;
+      border: 2px solid;
+      border-radius: 22px;
+    }
+  }
+
+  .right-content-area {
+    width: 50%;
+    height: 80vh;
+   @extend %display;
+
+    img {
+      width: 28rem;
+      animation: rotate 5s linear infinite;
+      z-index: -1;
+    }
+
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      50% {
+        transform: rotate(180deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
+}

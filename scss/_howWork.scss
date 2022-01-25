@@ -1,0 +1,55 @@
+.how-we-work {
+    width: 90%;
+    margin: auto;
+  
+    .heading-how-we {
+      @extend %display;
+      flex-direction: column;
+  
+      p {
+        color: $tertiary-color;
+      }
+  
+      h1 {
+        width: 49%;
+        text-align: center;
+        font-size: 39px;
+      }
+    }
+    .main-how-work-container {
+      margin: 20px;
+      .how-work-content {
+        display: flex;
+        flex-wrap: wrap;
+  
+        .box-how {
+          width: 31%;
+          margin: 0px 8px;
+          border: 2px solid;
+          border-radius: 13px;
+  
+          i {
+            font-size: 101px;
+            margin-bottom: 15px;
+            position: relative;
+            left: 42px;
+            top: 12px;
+            color: $tertiary-color;
+          }
+  
+          h1 {
+            width: 80%;
+            margin: auto;
+          }
+  
+          p {
+            width: 80%;
+            margin: auto;
+            font-size: 13px;
+            margin-top: 5px;
+            margin-bottom: 14px;
+          }
+        }
+      }
+    }
+  }
